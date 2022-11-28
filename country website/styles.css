@@ -1,0 +1,94 @@
+/*
+
+    selector {
+        property: value;
+        property: value;
+        property: value;
+        etc.
+
+    }
+
+    selector options: 
+
+
+    tag name, such as p or img
+    class name, such as .green or .highlighted
+    tag.class, such as h1.green or p.highlighted
+
+
+    tagname>tagname
+    .classname>tagname
+    tagname>.classname
+    .classname>.clasname
+*/
+
+    .nav {
+       
+        list-style: none;
+        
+        border-style: dashed;
+
+        padding-left:0%;
+        
+        width: 50%;
+    
+        margin: auto;
+  
+        text-align: center;
+        
+        
+    }
+
+    .nav>li{
+
+        border-style: ridge;
+
+        display: inline-block;
+        color: antiquewhite;
+    }
+    
+
+
+    img {
+
+        display: block;
+        width: 33%;
+
+    }
+
+    .Page1{
+
+        background-image:url(https://cdn.britannica.com/46/154246-050-7C72E12F/view-Rome.jpg) ;
+    
+    }
+
+    .Page1{
+
+        text-emphasis-color: rgb(185, 120, 120);
+    }
+
+
+        .home{
+
+
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7vlDhcONIBDdOKJHUEUORQXUIVQHO-tFkU8SS7zOWprC90rlyTWcQ9egBImq_rZomU4U:https://thumbs.dreamstime.com/b/italy-flag-glossy-silk-texture-beautiful-d-rendering-125099673.jpg&usqp=CAU);
+
+        }
+
+
+        .Page2{
+
+            
+            background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS30Yx-hHgAs13D09xOL0n4Ns-Y0di2-XeAN7R-rYh8ZaGSB8-OkXV5ppxnzCRLCLcmZo:https://salestoriche.unesco.modena.it/assets/Uploads/Secchia.jpg&usqp=CAU);
+
+
+        }
+
+
+        .Page3{
+
+
+            background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1ggN9GnNpV4T1u9uzTgp6MZ--_RFIQYEFsn3joXE4g67IGE1OaIDqT6dM_00yIJkzyoY:https://imageio.forbes.com/specials-images/dam/imageserve/1133862998/960x0.jpg%3Fformat%3Djpg%26width%3D960&usqp=CAU);
+
+
+        }
